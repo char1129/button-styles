@@ -13,31 +13,22 @@ div {
 }
 
 .btn {
+  display: inline-block;
+  margin: 0;
   font-size: 1.125rem;
   padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
-  text-decoration: none;
   border-color: #333;
-
+  text-decoration: none;
 }
 
 .btn-small {
   font-size: .875rem;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
-  border-width: 3px;
-  text-decoration: none;
-    border-color: #333;
 }
 
-.btn-big{
+.btn-big {
   font-size: 1.5rem;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
-  border-width: 3px;
-  text-decoration: none;
-  border-color: #333;
 }
 
 .btn-alt {
@@ -53,7 +44,6 @@ div {
 .btn-ghost {
   color: #000;
   background-color: #fff;
-  border-color: #333;
 }
 
 .btn-warning {
