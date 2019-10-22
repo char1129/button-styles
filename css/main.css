@@ -15,32 +15,48 @@ div {
 .btn {
   font-size: 1.125rem;
   padding: .4em .75em .3em;
-  border-radius: 8px 3px;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  border-color: #333;
 
 }
 
 .btn-small {
   font-size: .875rem;
   padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+    border-color: #333;
 }
 
 .btn-big{
   font-size: 1.5rem;
   padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  border-color: #333;
 }
 
-.btn {
-
+.btn-alt {
+  color: #fff;
+  background-color: #333;
 }
 
 .btn-subtle {
-
+  color: #fff;
+  background-color: #666;
 }
 
 .btn-ghost {
-
+  color: #000;
+  background-color: #fff;
+  border-color: #333;
 }
 
 .btn-warning {
-
+  color: #fff;
+  background-color: #f33;
 }
